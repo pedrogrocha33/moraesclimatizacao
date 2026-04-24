@@ -17,195 +17,262 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- HEADER COM LOGO -->
-    <header class="header">
-        <div class="container header-content">
-            <div class="logo-section">
-                <img src="logo02.jpeg" alt="Moraes Ar Condicionado" class="logo">
-            </div>
-            <nav class="header-nav" id="headerNav">
-                <a href="#servicos" class="nav-link">Serviços</a>
-                <a href="#area-atendimento" class="nav-link">Contato</a>
-            </nav>
-            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
-                <span></span>
-                <span></span>
-                <span></span>
+ <header class="moraes-header">
+    <div class="moraes-container header-content">
+        <div class="logo-wrapper">
+            <img src="logo02.jpeg" alt="Moraes Climatização" class="main-logo">
+        </div>
+
+        <nav class="desktop-nav">
+            <ul class="nav-list">
+                <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                <li><a href="#manutencao" class="nav-link">Manutenção</a></li>
+                <li><a href="#contato" class="nav-link">Sobre nós</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-actions">
+            <a href="https://wa.me/seunumerosaqui" class="cta-whatsapp" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+                <span>Orçamento Grátis</span>
+            </a>
+
+            <button class="mobile-toggle" id="menuToggle" aria-label="Abrir Menu">
+                <span class="line"></span>
+                <span class="line short"></span>
             </button>
         </div>
-    </header>
+    </div>
+</header>
 
     <!-- Botão Flutuante WhatsApp -->
     <a href="https://wa.me/5514997097996?text=Olá%20Moraes%20Ar%20Condicionado,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener noreferrer" class="whatsapp-float" title="Fale conosco no WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <div class="hero-background" style="background-image: url('https://private-us-east-1.manuscdn.com/sessionFile/4rKkHDPJvxHn8jBvRFMzer/sandbox/wGgd7pQpRJCaLCWO86fgc6-img-1_1771402853000_na1fn_aGVyby1hYy1tb2Rlcm4.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNHJLa0hEUEp2eEhuOGpCdlJGTXplci9zYW5kYm94L3dHZ2Q3cFFwUkpDYUxDV084NmZnYzYtaW1nLTFfMTc3MTQwMjg1MzAwMF9uYTFmbl9hR1Z5YnkxaFl5MXRiMlJsY200LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=uk2YjJOiVHOPg4jCuTUHS40Fax6kGw3Zw5RE5tEs8QPLoAwTuggUVIs2briq50TIZsWzZhc2T4uxH6y2dk6RIvSvypMytuelGzYEPPLMeoFJU5mR3vfArS6BOSWlny5egg5VU9XegMAZVSvH-SeSSkR0sw6YCWWwiCesq2otAdcZVE69a2CrGyRiXtvX~LNYqFXJVHfBo~62WGpWYFLJ8APhz-hDTOcKxrzuI4~wv3QSyjv0kQS4ahuGOFNUE5cD9OQGtdcjtrEe~4-dcMYEalsPNK6UeKxlvsBLtgV-IjbhsVhz3S6iklgxX9GNnPbEHCsBJHuV8vuhfVfZDGvSbw__'); background-size: cover; background-position: center;"></div>
-        <div class="hero-overlay"></div>
+<section class="moraes-hero">
+    <div class="moraes-container hero-grid">
         
-        <div class="container hero-content">
-            <div class="hero-grid">
-                <!-- Texto Hero -->
-                <div class="hero-text">
-                    <!-- Badge -->
-                    <div class="badge">
-                        <i class="fas fa-star"></i>
-                        <span>5,0 no Google • Atendimento Rápido</span>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i data-lucide="award"></i>
+                <span>Líder em Climatização em Marília</span>
+            </div>
+            
+            <h1>Sua casa na <span>temperatura ideal</span>, o ano todo.</h1>
+            
+            <p class="hero-description">
+                Instalação técnica, manutenção preventiva e higienização com quem é 5 estrelas no Google. Conforto térmico com agilidade e garantia real.
+            </p>
+
+            <div class="hero-ctas">
+                <a href="https://wa.me/5514997097996" class="btn-whatsapp-main">
+                    <i data-lucide="message-square"></i>
+                    Solicitar Orçamento Grátis
+                </a>
+                <div class="hero-trust">
+                    <div class="trust-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>Técnicos Certificados</span>
                     </div>
-
-                    <!-- Headline -->
-                    <h1>Instalação e Manutenção de Ar Condicionado em Marília</h1>
-
-                    <!-- Subheadline -->
-                    <p class="subheadline">Atendimento rápido, serviço técnico especializado e mais de 5.000 avaliações positivas.</p>
-
-                    <!-- CTAs -->
-                    <div class="cta-buttons">
-                        <a href="https://wa.me/5514997097996?text=Olá%20Moraes%20Ar%20Condicionado,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener noreferrer" class="btn btn-primary">
-                            <i class="fab fa-whatsapp"></i> Solicitar Orçamento no WhatsApp
-                        </a>
-                        <a href="#servicos" class="btn btn-secondary">Ver Serviços</a>
-                    </div>
-                </div>
-
-                <!-- Imagem Hero -->
-                <div class="hero-image">
-                    <img src="https://private-us-east-1.manuscdn.com/sessionFile/4rKkHDPJvxHn8jBvRFMzer/sandbox/wGgd7pQpRJCaLCWO86fgc6-img-1_1771402853000_na1fn_aGVyby1hYy1tb2Rlcm4.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNHJLa0hEUEp2eEhuOGpCdlJGTXplci9zYW5kYm94L3dHZ2Q3cFFwUkpDYUxDV084NmZnYzYtaW1nLTFfMTc3MTQwMjg1MzAwMF9uYTFmbl9hR1Z5YnkxaFl5MXRiMlJsY200LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=uk2YjJOiVHOPg4jCuTUHS40Fax6kGw3Zw5RE5tEs8QPLoAwTuggUVIs2briq50TIZsWzZhc2T4uxH6y2dk6RIvSvypMytuelGzYEPPLMeoFJU5mR3vfArS6BOSWlny5egg5VU9XegMAZVSvH-SeSSkR0sw6YCWWwiCesq2otAdcZVE69a2CrGyRiXtvX~LNYqFXJVHfBo~62WGpWYFLJ8APhz-hDTOcKxrzuI4~wv3QSyjv0kQS4ahuGOFNUE5cD9OQGtdcjtrEe~4-dcMYEalsPNK6UeKxlvsBLtgV-IjbhsVhz3S6iklgxX9GNnPbEHCsBJHuV8vuhfVfZDGvSbw__" alt="Ar Condicionado Moderno">
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- SERVIÇOS SECTION -->
-    <section id="servicos" class="servicos">
-        <div class="container">
-            <div class="section-header">
-                <h2>Nossos Serviços</h2>
-                <p>Soluções completas em climatização para residências e comerciais</p>
+        <div class="hero-visual">
+            <div class="image-wrapper">
+                <img src="https://penhasplit.arcondicionado.rio.br/wp-content/uploads/2022/01/76Q2U-1024x680-1.jpg" alt="Ar Condicionado Moderno" class="main-img">
+                
+                <div class="floating-card service-1">
+                    <div class="icon-circle"><i data-lucide="snowflake"></i></div>
+                    <div>
+                        <strong>Instalação</strong>
+                        <span>Rápida e limpa</span>
+                    </div>
+                </div>
+                
+                <div class="floating-card service-2">
+                    <div class="icon-circle"><i data-lucide="wind"></i></div>
+                    <div>
+                        <strong>Higienização</strong>
+                        <span>Ar puro sempre</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-benefits-bar">
+        <div class="moraes-container">
+            <div class="benefits-wrapper">
+                <div class="benefit-card">
+                    <i data-lucide="zap"></i>
+                    <span>Atendimento no mesmo dia</span>
+                </div>
+                <div class="benefit-card">
+                    <i data-lucide="shield-check"></i>
+                    <span>Garantia de 1 ano</span>
+                </div>
+                <div class="benefit-card">
+                    <i data-lucide="thumbs-up"></i>
+                    <span>Preço Justo e Transparente</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>lucide.createIcons();</script>
+
+   <section id="servicos" class="moraes-servicos">
+    <div class="moraes-container">
+        
+        <header class="section-intro">
+            <span class="section-badge">Excelência Técnica</span>
+            <h2>Soluções completas para o seu <span>conforto</span></h2>
+            <p>De residências a grandes empresas, entregamos a temperatura perfeita com o máximo de eficiência energética.</p>
+        </header>
+
+        <div class="servicos-grid">
+            
+            <div class="service-card">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7h-9l-3-3H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M12 13v4"/><path d="M10 15h4"/></svg>
+                </div>
+                <div class="card-content">
+                    <h3>Instalação Profissional</h3>
+                    <p>Dimensionamento correto para garantir vida útil longa ao seu aparelho e economia na conta de luz.</p>
+                    <a href="https://wa.me/5514997097996" class="service-cta">
+                        Orçamento Grátis
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </a>
+                </div>
             </div>
 
-            <div class="servicos-grid">
-                <!-- Card 1 -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-bolt"></i>
-                    </div>
-                    <h3>Instalação de Ar Condicionado</h3>
-                    <p>Instalação profissional de sistemas de climatização com garantia e suporte técnico especializado.</p>
-                    <a href="https://wa.me/5514997097996?text=Olá%20Moraes%20Ar%20Condicionado,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener noreferrer" class="service-link">Solicitar Orçamento →</a>
+            <div class="service-card highlight">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
                 </div>
-
-                <!-- Card 2 -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-wrench"></i>
-                    </div>
+                <div class="card-content">
                     <h3>Manutenção Preventiva</h3>
-                    <p>Manutenção regular para garantir o funcionamento ótimo do seu ar condicionado e prolongar sua vida útil.</p>
-                    <a href="https://wa.me/5514997097996?text=Olá%20Moraes%20Ar%20Condicionado,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener noreferrer" class="service-link">Solicitar Orçamento →</a>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-droplet"></i>
-                    </div>
-                    <h3>Lavagem e Higienização</h3>
-                    <p>Limpeza profunda e higienização completa para melhorar a qualidade do ar e eliminar bactérias.</p>
-                    <a href="https://wa.me/5514997097996?text=Olá%20Moraes%20Ar%20Condicionado,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener noreferrer" class="service-link">Solicitar Orçamento →</a>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-wind"></i>
-                    </div>
-                    <h3>Carga de Gás</h3>
-                    <p>Recarregamento de gás refrigerante com diagnóstico completo do sistema de climatização.</p>
-                    <a href="https://wa.me/5514997097996?text=Olá%20Moraes%20Ar%20Condicionado,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener noreferrer" class="service-link">Solicitar Orçamento →</a>
-                </div>
-
-                <!-- Card 5 -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-tools"></i>
-                    </div>
-                    <h3>Retirada e Reinstalação</h3>
-                    <p>Serviço completo de remoção e reinstalação de unidades com segurança e precisão técnica.</p>
-                    <a href="https://wa.me/5514997097996?text=Olá%20Moraes%20Ar%20Condicionado,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener noreferrer" class="service-link">Solicitar Orçamento →</a>
-                </div>
-
-                <!-- Card 6 -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                    <h3>Suporte Técnico</h3>
-                    <p>Atendimento rápido para diagnóstico, reparo e resolução de problemas técnicos.</p>
-                    <a href="https://wa.me/5514997097996?text=Olá%20Moraes%20Ar%20Condicionado,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener noreferrer" class="service-link">Solicitar Orçamento →</a>
+                    <p>Evite quebras inesperadas e garanta que seu equipamento esteja sempre pronto para os dias mais quentes.</p>
+                    <a href="https://wa.me/5514997097996" class="service-cta">
+                        Agendar Visita
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- PROVA SOCIAL SECTION -->
-    <section class="prova-social">
-        <div class="container">
-            <div class="section-header">
-                <h2>O Que Nossos Clientes Dizem</h2>
-                <div class="rating">
+            <div class="service-card">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="M20 12h2"/><path d="m19.07 19.07-1.41-1.41"/><path d="M12 22v-2"/><path d="m6.34 17.66-1.41 1.41"/><path d="M2 12h2"/><path d="m4.93 19.07 1.41-1.41"/><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10z"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg>
+                </div>
+                <div class="card-content">
+                    <h3>Higienização Química</h3>
+                    <p>Eliminação de fungos e bactérias. Proteja a saúde da sua família com uma limpeza profunda certificada.</p>
+                    <a href="https://wa.me/5514997097996" class="service-cta">
+                        Saiba Mais
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            </div>
+    </div>
+</section>
+
+   <section class="moraes-testimonials">
+    <div class="moraes-container">
+        
+        <header class="testimonials-header">
+            <div class="google-badge">
+                <div class="google-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-1 .67-2.28 1.07-3.71 1.07-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.11c-.22-.66-.35-1.36-.35-2.11s.13-1.45.35-2.11V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l3.66-2.83z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.83c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                </div>
+                <div class="badge-content">
+                    <strong>5.0/5</strong>
+                    <span>Avaliações no Google</span>
+                </div>
+            </div>
+            <h2>Quem confia, <span>recomenda.</span></h2>
+            <p>A satisfação de centenas de famílias e empresas em Marília é a nossa maior garantia de qualidade.</p>
+        </header>
+
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="card-top">
                     <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i data-lucide="star" class="fill-star"></i>
+                        <i data-lucide="star" class="fill-star"></i>
+                        <i data-lucide="star" class="fill-star"></i>
+                        <i data-lucide="star" class="fill-star"></i>
+                        <i data-lucide="star" class="fill-star"></i>
                     </div>
-                    <span class="rating-text">5,0 no Google</span>
+                    <span class="verify-badge"><i data-lucide="check-circle-2"></i> Verificado</span>
+                </div>
+                <p class="quote">"O técnico da Moraes foi extremamente pontual e cuidadoso. Fizeram a higienização sem sujar nada na sala. O ar parece novo!"</p>
+                <div class="author-info">
+                    <div class="avatar-circle">RS</div>
+                    <div>
+                        <h4>Ricardo Santos</h4>
+                        <span>Residencial Esmeraldas</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+            <div class="testimonial-card highlight">
+                <div class="card-top">
+                    <div class="stars">
+                        <i data-lucide="star" class="fill-star"></i>
+                        <i data-lucide="star" class="fill-star"></i>
+                        <i data-lucide="star" class="fill-star"></i>
+                        <i data-lucide="star" class="fill-star"></i>
+                        <i data-lucide="star" class="fill-star"></i>
                     </div>
-                    <p class="testimonial-text">"Ótimo profissional, super qualificado, atendimento de primeira. Recomendo!"</p>
-                    <p class="testimonial-author">— Cliente Satisfeito</p>
+                    <span class="verify-badge"><i data-lucide="check-circle-2"></i> Verificado</span>
                 </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <p class="quote">"Instalaram 4 máquinas na minha clínica em tempo recorde. Serviço limpo e equipe muito educada. Preço justo pela qualidade."</p>
+                <div class="author-info">
+                    <div class="avatar-circle">AM</div>
+                    <div>
+                        <h4>Ana Meireles</h4>
+                        <span>Clínica Sorriso Clean</span>
                     </div>
-                    <p class="testimonial-text">"Serviço excelente, muito eficiente. Resolveu meu problema rapidamente."</p>
-                    <p class="testimonial-author">— Cliente Verificado</p>
                 </div>
+            </div>
 
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+            <div class="testimonial-card">
+                <div class="card-top">
+                    <div class="stars">
+                        <i data-lucide="star" class="fill-star"></i>
+                        <i data-lucide="star" class="fill-star"></i>
+                        <i data-lucide="star" class="fill-star"></i>
+                        <i data-lucide="star" class="fill-star"></i>
+                        <i data-lucide="star" class="fill-star"></i>
                     </div>
-                    <p class="testimonial-text">"Trabalho impecável. Profissional confiável e atencioso com todos os detalhes."</p>
-                    <p class="testimonial-author">— Cliente Google</p>
+                    <span class="verify-badge"><i data-lucide="check-circle-2"></i> Verificado</span>
+                </div>
+                <p class="quote">"Tive um problema no compressor em pleno domingo e foram os únicos que me atenderam prontamente. Salvou meu final de semana!"</p>
+                <div class="author-info">
+                    <div class="avatar-circle">JP</div>
+                    <div>
+                        <h4>João Pedro</h4>
+                        <span>Condomínio Sunset</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+
+        <div class="testimonials-footer">
+            <p>Quer ter a mesma experiência?</p>
+            <a href="https://wa.me/5514997097996" class="btn-whatsapp-footer">
+                <i data-lucide="message-circle"></i>
+                Chamar no WhatsApp
+            </a>
+        </div>
+    </div>
+</section>
 
     <!-- SOBRE A EMPRESA SECTION -->
     <section class="sobre">
@@ -213,7 +280,7 @@
             <div class="sobre-grid">
                 <!-- Imagem -->
                 <div class="sobre-image">
-                    <img src="https://private-us-east-1.manuscdn.com/sessionFile/4rKkHDPJvxHn8jBvRFMzer/sandbox/wGgd7pQpRJCaLCWO86fgc6-img-2_1771402853000_na1fn_dGVjaG5pY2lhbi1tYWludGVuYW5jZQ.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNHJLa0hEUEp2eEhuOGpCdlJGTXplci9zYW5kYm94L3dHZ2Q3cFFwUkpDYUxDV084NmZnYzYtaW1nLTJfMTc3MTQwMjg1MzAwMF9uYTFmbl9kR1ZqYUc1cFkybGhiaTF0WVdsdWRHVnVZVzVqWlEuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=T6-DsG1UdK-79dWiyVjfPDR8WLLvWFgBwAaUwhW4crDKn2PW2vEgmVM3N9Z~BXBscl77~L9LgxbOENkkjiPV0IAPuZFPIJUnUVgzBycBQ2n9L3d4hX6YpVi9SkuN7MSHajl5~QjO6wt1gdUdBaEAO8xKNM8Pcgeu4oE-yZtdm~bhetG~LH-vwwp2QQz0-1klVG-GqtjSmRVnSFtnsEE5FxQlazKRZ~8e8wPDXl3MPkaxVVDxd-i6d62hSpKvAfGWiA6r19Y0pVuFnK4fruFmkCsxv018XEWZWTLpH~DRal~arDhU1GULQkDadBFKOpi2NRDe8fuwamV-JLoswchn7A__" alt="Técnico Qualificado">
+                    <img src="https://wx.mlcdn.com.br/ponzi/production/uploads/01_4e78bc7cdc.jpg?ims=fit-in/960x" alt="Técnico Qualificado">
                 </div>
 
                 <!-- Texto -->
@@ -248,60 +315,184 @@
         </div>
     </section>
 
-    <!-- ÁREA DE ATENDIMENTO SECTION -->
-    <section id="area-atendimento" class="area-atendimento">
-        <div class="container">
-            <div class="section-header">
-                <h2>Área de Atendimento</h2>
-                <p>Marília e região</p>
+<section id="contato" class="moraes-atendimento">
+    <div class="moraes-container">
+        <div class="atendimento-grid">
+            
+            <div class="atendimento-content">
+                <span class="section-badge">Onde estamos</span>
+                <h2>Atendimento rápido em <span>Marília e região</span></h2>
+                <p>Nossa equipe técnica está estrategicamente posicionada para garantir agilidade no atendimento residencial e comercial.</p>
+                
+                <ul class="cidades-list">
+                    <li><i data-lucide="map-pin"></i> Marília (Toda a cidade)</li>
+                    <li><i data-lucide="map-pin"></i> Vera Cruz</li>
+                    <li><i data-lucide="map-pin"></i> Pompéia</li>
+                    <li><i data-lucide="map-pin"></i> Garça</li>
+                </ul>
+
+                <div class="atendimento-stats">
+                    <div class="stat-item">
+                        <strong>+5.000</strong>
+                        <span>Clientes atendidos</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>24h</strong>
+                        <span>Resposta rápida</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="contato-grid">
-                <!-- Endereço -->
-                <div class="contato-card">
-                    <div class="contato-icon">
-                        <i class="fas fa-map-pin"></i>
-                    </div>
-                    <h3>Endereço</h3>
-                    <p>R. Panamá, 681<br>Jardim Vitória<br>Marília/SP</p>
+            <div class="contato-box">
+                <div class="contato-header">
+                    <h3>Fale com um especialista</h3>
+                    <p>Orçamentos sem compromisso via WhatsApp</p>
                 </div>
+                
+                <div class="contato-body">
+                    <div class="contato-item">
+                        <div class="icon-wrap">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <div class="item-text">
+                            <span>Nosso Endereço</span>
+                            <strong>R. Panamá, 681 - Jd. Vitória, Marília/SP</strong>
+                        </div>
+                    </div>
 
-                <!-- Telefone -->
-                <div class="contato-card">
-                    <div class="contato-icon">
-                        <i class="fas fa-phone"></i>
+                    <div class="contato-item">
+                        <div class="icon-wrap">
+                            <i data-lucide="phone"></i>
+                        </div>
+                        <div class="item-text">
+                            <span>Telefone e WhatsApp</span>
+                            <strong>(14) 99709-7996</strong>
+                        </div>
                     </div>
-                    <h3>Telefone</h3>
-                    <a href="tel:+5514997097996" class="phone-link">(14) 99709-7996</a>
-                    <p class="phone-info">Disponível para WhatsApp</p>
+
+                    <a href="https://wa.me/5514997097996" class="btn-contato-premium">
+                        <i data-lucide="message-circle"></i>
+                        Iniciar Conversa no WhatsApp
+                    </a>
+                    
+                    <span class="horario-tag">
+                        <i data-lucide="clock"></i> 
+                        Segunda a Sexta: 08h às 18h
+                    </span>
                 </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+   <section class="moraes-cta-final">
+    <div class="moraes-container">
+        <div class="cta-wrapper">
+            
+            <div class="frost-blur-1"></div>
+            <div class="frost-blur-2"></div>
+
+            <div class="cta-inner-content">
+                <span class="cta-badge">
+                    <i data-lucide="clock"></i> Atendimento hoje em Marília
+                </span>
+                
+                <h2>Não deixe o conforto da sua família <span>para depois.</span></h2>
+                
+                <p>Recupere o frescor do seu ambiente com técnicos que entendem do assunto. Orçamento rápido, sem letras miúdas e direto pelo WhatsApp.</p>
+
+                <div class="cta-action-group">
+                    <a href="https://wa.me/5514997097996" class="btn-whatsapp-final">
+                        <i data-lucide="message-square"></i>
+                        Quero meu orçamento agora
+                    </a>
+                    
+                    <div class="cta-features">
+                        <div class="feature-tag">
+                            <i data-lucide="check"></i> Sem taxa de visita*
+                        </div>
+                        <div class="feature-tag">
+                            <i data-lucide="check"></i> Garantia estendida
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+   <footer class="moraes-footer">
+    <div class="moraes-container">
+        
+        <div class="footer-main-grid">
+            <div class="footer-brand">
+                <img src="logo02.jpeg" alt="Moraes Climatização" class="footer-logo-premium">
+                <p class="brand-bio">
+                    Referência em soluções térmicas em Marília e região. Tecnologia, conforto e ar puro para sua família ou empresa.
+                </p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-nav-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#servicos">Nossos Serviços</a></li>
+                    <li><a href="#manutencao">Manutenção</a></li>
+                    <li><a href="#contato">Área de Atendimento</a></li>
+                    <li><a href="#depoimentos">Avaliações</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-col">
+                <h4>Serviços</h4>
+                <ul>
+                    <li><a href="#">Instalação de Split</a></li>
+                    <li><a href="#">Limpeza Química</a></li>
+                    <li><a href="#">Carga de Gás</a></li>
+                    <li><a href="#">Projetos PMOC</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-col">
+                <h4>Contato</h4>
+                <ul class="contact-info">
+                    <li>
+                        <i data-lucide="phone"></i>
+                        <span>(14) 99709-7996</span>
+                    </li>
+                    <li>
+                        <i data-lucide="mail"></i>
+                        <span>contato@moraesclimatiza.com.br</span>
+                    </li>
+                    <li>
+                        <i data-lucide="map-pin"></i>
+                        <span>Marília - SP</span>
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
 
-    <!-- CTA FINAL SECTION -->
-    <section class="cta-final">
-        <div class="container">
-            <h2>Precisa Instalar ou Fazer Manutenção no Seu Ar Condicionado?</h2>
-            <p>Entre em contato conosco agora mesmo e receba um orçamento sem compromisso.</p>
-            <a href="https://wa.me/5514997097996?text=Olá%20Moraes%20Ar%20Condicionado,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener noreferrer" class="btn btn-cta">
-                <i class="fab fa-whatsapp"></i> Solicitar Orçamento Agora
-            </a>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container footer-content">
-            <div class="footer-logo">
-                <img src="logo02.jpeg" alt="Moraes Ar Condicionado" class="footer-logo-img">
-            </div>
-            <div class="footer-info">
+        <div class="footer-bottom">
+            <div class="bottom-content">
                 <p>&copy; 2026 Moraes Ar Condicionado. Todos os direitos reservados.</p>
-                <p class="footer-subtitle">Especializada em climatização, instalação e manutenção de ar condicionado em Marília</p>
+                <div class="legal-links">
+                    <a href="#">Política de Privacidade</a>
+                    <span>|</span>
+                    <p>Desenvolvido por <strong>HardTech</strong></p>
+                </div>
             </div>
         </div>
-    </footer>
+
+    </div>
+</footer>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>lucide.createIcons();</script>
 
     <script src="script.js"></script>
 </body>
